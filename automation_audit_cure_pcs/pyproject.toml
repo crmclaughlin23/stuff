@@ -1,0 +1,30 @@
+[project]
+name = "automation_audit_cure_pcs"
+version = "0.1.0"
+description = "Cure PC Audit"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.3",
+    "natsort>=8.4",
+    "shared-config",
+    "shared-utils",
+    "sqlalchemy>=2.0.44",
+    "pyodbc>=5.3.0",
+]
+
+[project.scripts]
+audit-cure-pcs = "automation_audit_cure_pcs:main_cli"
+
+[tool.uv.sources]
+shared-config = { git = "https://github.northgrum.com/M67743/shared_config.git" }
+shared-utils  = { git = "https://github.northgrum.com/M67743/shared_utils.git" }
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv]
+package = true

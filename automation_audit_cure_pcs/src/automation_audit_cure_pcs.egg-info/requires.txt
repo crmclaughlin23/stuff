@@ -1,0 +1,6 @@
+pandas>=2.3
+natsort>=8.4
+shared-config
+shared-utils
+sqlalchemy>=2.0.44
+pyodbc>=5.3.0

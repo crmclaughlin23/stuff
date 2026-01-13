@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: automation_audit_cure_pcs
+Version: 0.1.0
+Summary: Cure PC Audit
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.3
+Requires-Dist: natsort>=8.4
+Requires-Dist: shared-config
+Requires-Dist: shared-utils
+Requires-Dist: sqlalchemy>=2.0.44
+Requires-Dist: pyodbc>=5.3.0
