@@ -1,0 +1,1 @@
+automation_cure_alarm_email

@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/automation_cure_alarm_emails.egg-info/PKG-INFO
+src/automation_cure_alarm_emails.egg-info/SOURCES.txt
+src/automation_cure_alarm_emails.egg-info/dependency_links.txt
+src/automation_cure_alarm_emails.egg-info/requires.txt
+src/automation_cure_alarm_emails.egg-info/top_level.txt

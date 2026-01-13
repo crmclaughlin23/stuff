@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: automation-cure-alarm-emails
+Version: 0.1.0
+Summary: Scheduled email of critical cure alarms recently triggered
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=2.3.3
+Requires-Dist: pyodbc>=5.3.0
+Requires-Dist: shared-config>=0.1.0
+Requires-Dist: shared-utils>=0.1.0
+Requires-Dist: sqlalchemy>=2.0.44
